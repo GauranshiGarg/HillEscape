@@ -1,0 +1,138 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9fc;
+    color: #333;
+    padding-bottom: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  
+  .back-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Destination Cards */
+  .destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    background-color: #0066cc;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a:hover {
+    background-color: #004d99;
+  }
+  
+  /* Itinerary Pages */
+  .itinerary {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .day {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  .day h2 {
+    color: #0066cc;
+    margin-bottom: 0.8rem;
+  }
+  
+  .day ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e6f0f7;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+  }
+  
